@@ -1,0 +1,29 @@
+# Credentials — never commit
+.env
+.env.*
+!.env.example
+*token*.json
+.yahoo_token.json
+oauth2.json
+credentials.json
+secrets/
+
+# League data snapshots
+snapshots/
+*.snapshot.json
+out/
+recaps/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
